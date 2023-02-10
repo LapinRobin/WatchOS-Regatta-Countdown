@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		272EF48D2996BE5000FD1DF9 /* Regatta-Countdown Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 272EF48C2996BE5000FD1DF9 /* Regatta-Countdown Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		272EF4922996BE5000FD1DF9 /* Regatta_CountdownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272EF4912996BE5000FD1DF9 /* Regatta_CountdownApp.swift */; };
+		272EF4942996BE5000FD1DF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272EF4932996BE5000FD1DF9 /* ContentView.swift */; };
+		272EF4962996BE5100FD1DF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 272EF4952996BE5100FD1DF9 /* Assets.xcassets */; };
+		272EF4992996BE5100FD1DF9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 272EF4982996BE5100FD1DF9 /* Preview Assets.xcassets */; };
+		272EF4A32996BE5100FD1DF9 /* Regatta_Countdown_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272EF4A22996BE5100FD1DF9 /* Regatta_Countdown_Watch_AppTests.swift */; };
+		272EF4AD2996BE5100FD1DF9 /* Regatta_Countdown_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272EF4AC2996BE5100FD1DF9 /* Regatta_Countdown_Watch_AppUITests.swift */; };
+		272EF4AF2996BE5100FD1DF9 /* Regatta_Countdown_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272EF4AE2996BE5100FD1DF9 /* Regatta_Countdown_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		272EF48E2996BE5000FD1DF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 272EF4802996BE5000FD1DF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 272EF48B2996BE5000FD1DF9;
+			remoteInfo = "Regatta-Countdown Watch App";
+		};
+		272EF49F2996BE5100FD1DF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 272EF4802996BE5000FD1DF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 272EF48B2996BE5000FD1DF9;
+			remoteInfo = "Regatta-Countdown Watch App";
+		};
+		272EF4A92996BE5100FD1DF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 272EF4802996BE5000FD1DF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 272EF48B2996BE5000FD1DF9;
+			remoteInfo = "Regatta-Countdown Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		272EF4B52996BE5100FD1DF9 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				272EF48D2996BE5000FD1DF9 /* Regatta-Countdown Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		272EF4862996BE5000FD1DF9 /* Regatta-Countdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Regatta-Countdown.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		272EF48C2996BE5000FD1DF9 /* Regatta-Countdown Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Regatta-Countdown Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		272EF4912996BE5000FD1DF9 /* Regatta_CountdownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regatta_CountdownApp.swift; sourceTree = "<group>"; };
+		272EF4932996BE5000FD1DF9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		272EF4952996BE5100FD1DF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		272EF4982996BE5100FD1DF9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		272EF49E2996BE5100FD1DF9 /* Regatta-Countdown Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Regatta-Countdown Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		272EF4A22996BE5100FD1DF9 /* Regatta_Countdown_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regatta_Countdown_Watch_AppTests.swift; sourceTree = "<group>"; };
+		272EF4A82996BE5100FD1DF9 /* Regatta-Countdown Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Regatta-Countdown Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		272EF4AC2996BE5100FD1DF9 /* Regatta_Countdown_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regatta_Countdown_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		272EF4AE2996BE5100FD1DF9 /* Regatta_Countdown_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regatta_Countdown_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		272EF4892996BE5000FD1DF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		272EF49B2996BE5100FD1DF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		272EF4A52996BE5100FD1DF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		272EF47F2996BE5000FD1DF9 = {
+			isa = PBXGroup;
+			children = (
+				272EF4902996BE5000FD1DF9 /* Regatta-Countdown Watch App */,
+				272EF4A12996BE5100FD1DF9 /* Regatta-Countdown Watch AppTests */,
+				272EF4AB2996BE5100FD1DF9 /* Regatta-Countdown Watch AppUITests */,
+				272EF4872996BE5000FD1DF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		272EF4872996BE5000FD1DF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				272EF4862996BE5000FD1DF9 /* Regatta-Countdown.app */,
+				272EF48C2996BE5000FD1DF9 /* Regatta-Countdown Watch App.app */,
+				272EF49E2996BE5100FD1DF9 /* Regatta-Countdown Watch AppTests.xctest */,
+				272EF4A82996BE5100FD1DF9 /* Regatta-Countdown Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		272EF4902996BE5000FD1DF9 /* Regatta-Countdown Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				272EF4912996BE5000FD1DF9 /* Regatta_CountdownApp.swift */,
+				272EF4932996BE5000FD1DF9 /* ContentView.swift */,
+				272EF4952996BE5100FD1DF9 /* Assets.xcassets */,
+				272EF4972996BE5100FD1DF9 /* Preview Content */,
+			);
+			path = "Regatta-Countdown Watch App";
+			sourceTree = "<group>";
+		};
+		272EF4972996BE5100FD1DF9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				272EF4982996BE5100FD1DF9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		272EF4A12996BE5100FD1DF9 /* Regatta-Countdown Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				272EF4A22996BE5100FD1DF9 /* Regatta_Countdown_Watch_AppTests.swift */,
+			);
+			path = "Regatta-Countdown Watch AppTests";
+			sourceTree = "<group>";
+		};
+		272EF4AB2996BE5100FD1DF9 /* Regatta-Countdown Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				272EF4AC2996BE5100FD1DF9 /* Regatta_Countdown_Watch_AppUITests.swift */,
+				272EF4AE2996BE5100FD1DF9 /* Regatta_Countdown_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Regatta-Countdown Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		272EF4852996BE5000FD1DF9 /* Regatta-Countdown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 272EF4B62996BE5100FD1DF9 /* Build configuration list for PBXNativeTarget "Regatta-Countdown" */;
+			buildPhases = (
+				272EF4842996BE5000FD1DF9 /* Resources */,
+				272EF4B52996BE5100FD1DF9 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				272EF48F2996BE5000FD1DF9 /* PBXTargetDependency */,
+			);
+			name = "Regatta-Countdown";
+			productName = "Regatta-Countdown";
+			productReference = 272EF4862996BE5000FD1DF9 /* Regatta-Countdown.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		272EF48B2996BE5000FD1DF9 /* Regatta-Countdown Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 272EF4B22996BE5100FD1DF9 /* Build configuration list for PBXNativeTarget "Regatta-Countdown Watch App" */;
+			buildPhases = (
+				272EF4882996BE5000FD1DF9 /* Sources */,
+				272EF4892996BE5000FD1DF9 /* Frameworks */,
+				272EF48A2996BE5000FD1DF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Regatta-Countdown Watch App";
+			productName = "Regatta-Countdown Watch App";
+			productReference = 272EF48C2996BE5000FD1DF9 /* Regatta-Countdown Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		272EF49D2996BE5100FD1DF9 /* Regatta-Countdown Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 272EF4B92996BE5100FD1DF9 /* Build configuration list for PBXNativeTarget "Regatta-Countdown Watch AppTests" */;
+			buildPhases = (
+				272EF49A2996BE5100FD1DF9 /* Sources */,
+				272EF49B2996BE5100FD1DF9 /* Frameworks */,
+				272EF49C2996BE5100FD1DF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				272EF4A02996BE5100FD1DF9 /* PBXTargetDependency */,
+			);
+			name = "Regatta-Countdown Watch AppTests";
+			productName = "Regatta-Countdown Watch AppTests";
+			productReference = 272EF49E2996BE5100FD1DF9 /* Regatta-Countdown Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		272EF4A72996BE5100FD1DF9 /* Regatta-Countdown Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 272EF4BC2996BE5100FD1DF9 /* Build configuration list for PBXNativeTarget "Regatta-Countdown Watch AppUITests" */;
+			buildPhases = (
+				272EF4A42996BE5100FD1DF9 /* Sources */,
+				272EF4A52996BE5100FD1DF9 /* Frameworks */,
+				272EF4A62996BE5100FD1DF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				272EF4AA2996BE5100FD1DF9 /* PBXTargetDependency */,
+			);
+			name = "Regatta-Countdown Watch AppUITests";
+			productName = "Regatta-Countdown Watch AppUITests";
+			productReference = 272EF4A82996BE5100FD1DF9 /* Regatta-Countdown Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		272EF4802996BE5000FD1DF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					272EF4852996BE5000FD1DF9 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					272EF48B2996BE5000FD1DF9 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					272EF49D2996BE5100FD1DF9 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 272EF48B2996BE5000FD1DF9;
+					};
+					272EF4A72996BE5100FD1DF9 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 272EF48B2996BE5000FD1DF9;
+					};
+				};
+			};
+			buildConfigurationList = 272EF4832996BE5000FD1DF9 /* Build configuration list for PBXProject "Regatta-Countdown" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 272EF47F2996BE5000FD1DF9;
+			productRefGroup = 272EF4872996BE5000FD1DF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				272EF4852996BE5000FD1DF9 /* Regatta-Countdown */,
+				272EF48B2996BE5000FD1DF9 /* Regatta-Countdown Watch App */,
+				272EF49D2996BE5100FD1DF9 /* Regatta-Countdown Watch AppTests */,
+				272EF4A72996BE5100FD1DF9 /* Regatta-Countdown Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		272EF4842996BE5000FD1DF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		272EF48A2996BE5000FD1DF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272EF4992996BE5100FD1DF9 /* Preview Assets.xcassets in Resources */,
+				272EF4962996BE5100FD1DF9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		272EF49C2996BE5100FD1DF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		272EF4A62996BE5100FD1DF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		272EF4882996BE5000FD1DF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272EF4942996BE5000FD1DF9 /* ContentView.swift in Sources */,
+				272EF4922996BE5000FD1DF9 /* Regatta_CountdownApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		272EF49A2996BE5100FD1DF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272EF4A32996BE5100FD1DF9 /* Regatta_Countdown_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		272EF4A42996BE5100FD1DF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272EF4AD2996BE5100FD1DF9 /* Regatta_Countdown_Watch_AppUITests.swift in Sources */,
+				272EF4AF2996BE5100FD1DF9 /* Regatta_Countdown_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		272EF48F2996BE5000FD1DF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 272EF48B2996BE5000FD1DF9 /* Regatta-Countdown Watch App */;
+			targetProxy = 272EF48E2996BE5000FD1DF9 /* PBXContainerItemProxy */;
+		};
+		272EF4A02996BE5100FD1DF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 272EF48B2996BE5000FD1DF9 /* Regatta-Countdown Watch App */;
+			targetProxy = 272EF49F2996BE5100FD1DF9 /* PBXContainerItemProxy */;
+		};
+		272EF4AA2996BE5100FD1DF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 272EF48B2996BE5000FD1DF9 /* Regatta-Countdown Watch App */;
+			targetProxy = 272EF4A92996BE5100FD1DF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		272EF4B02996BE5100FD1DF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		272EF4B12996BE5100FD1DF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		272EF4B32996BE5100FD1DF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Regatta-Countdown Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 6F8XT6GD4F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Regatta-Countdown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Yukong.Regatta-Countdown.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		272EF4B42996BE5100FD1DF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Regatta-Countdown Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 6F8XT6GD4F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Regatta-Countdown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Yukong.Regatta-Countdown.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		272EF4B72996BE5100FD1DF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6F8XT6GD4F;
+				INFOPLIST_KEY_CFBundleDisplayName = "Regatta-Countdown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Yukong.Regatta-Countdown";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		272EF4B82996BE5100FD1DF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6F8XT6GD4F;
+				INFOPLIST_KEY_CFBundleDisplayName = "Regatta-Countdown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Yukong.Regatta-Countdown";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		272EF4BA2996BE5100FD1DF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6F8XT6GD4F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Yukong.Regatta-Countdown-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Regatta-Countdown Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Regatta-Countdown Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		272EF4BB2996BE5100FD1DF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6F8XT6GD4F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Yukong.Regatta-Countdown-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Regatta-Countdown Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Regatta-Countdown Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		272EF4BD2996BE5100FD1DF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6F8XT6GD4F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Yukong.Regatta-Countdown-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Regatta-Countdown Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		272EF4BE2996BE5100FD1DF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6F8XT6GD4F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Yukong.Regatta-Countdown-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Regatta-Countdown Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		272EF4832996BE5000FD1DF9 /* Build configuration list for PBXProject "Regatta-Countdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				272EF4B02996BE5100FD1DF9 /* Debug */,
+				272EF4B12996BE5100FD1DF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		272EF4B22996BE5100FD1DF9 /* Build configuration list for PBXNativeTarget "Regatta-Countdown Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				272EF4B32996BE5100FD1DF9 /* Debug */,
+				272EF4B42996BE5100FD1DF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		272EF4B62996BE5100FD1DF9 /* Build configuration list for PBXNativeTarget "Regatta-Countdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				272EF4B72996BE5100FD1DF9 /* Debug */,
+				272EF4B82996BE5100FD1DF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		272EF4B92996BE5100FD1DF9 /* Build configuration list for PBXNativeTarget "Regatta-Countdown Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				272EF4BA2996BE5100FD1DF9 /* Debug */,
+				272EF4BB2996BE5100FD1DF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		272EF4BC2996BE5100FD1DF9 /* Build configuration list for PBXNativeTarget "Regatta-Countdown Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				272EF4BD2996BE5100FD1DF9 /* Debug */,
+				272EF4BE2996BE5100FD1DF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 272EF4802996BE5000FD1DF9 /* Project object */;
+}

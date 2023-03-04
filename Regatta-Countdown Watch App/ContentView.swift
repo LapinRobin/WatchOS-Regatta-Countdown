@@ -15,6 +15,7 @@ struct ContentView: View {
     @State private var isReady = true
     @State private var isCountingDown = false
     @State private var isTimeUp = false
+    @State private var oneMinuteLeft = false
     
     @State private var buttonText = "Start"
     private let timer = Timer.publish(every: 0.1, on: .main, in: .common).autoconnect()
@@ -22,6 +23,19 @@ struct ContentView: View {
     func triggerHaptic(type: WKHapticType) {
         let interfaceDevice = WKInterfaceDevice.current()
         interfaceDevice.play(type)
+    }
+    
+    func triggerMultipleHaptics(type: WKHapticType, count: Int, length: Double) {
+        DispatchQueue.global().async {
+            let interfaceDevice = WKInterfaceDevice.current()
+            for _ in 0..<count {
+                // Play the current haptic type
+                interfaceDevice.play(type)
+                
+                // Wait for a short time before playing the next haptic type
+                Thread.sleep(forTimeInterval: length)
+            }
+        }
     }
     
     var body: some View {
@@ -56,15 +70,29 @@ struct ContentView: View {
                         triggerHaptic(type: .success)
                         self.isTimeUp = true
                         self.isCountingDown = false
+                        self.oneMinuteLeft = false
                         buttonText = "Reset"
                     } else if self.decisecondsRemaining == 0 {
                         decisecondsRemaining = 9
-                        if (self.secondsRemaining == 0) {
+                        if self.secondsRemaining == 0 {
                             self.secondsRemaining = 59
+                            triggerMultipleHaptics(type: .click, count: minutesRemaining, length: 0.3)
                             self.minutesRemaining -= 1
+                            if minutesRemaining == 0 {
+                                self.oneMinuteLeft = true
+                            }
+                            
                         } else {
+                            if oneMinuteLeft && secondsRemaining % 10 == 0 {
+                                triggerMultipleHaptics(type: .click, count: secondsRemaining / 10, length: 0.2)
+                            }
                             self.secondsRemaining -= 1
                         }
+
+                        if oneMinuteLeft && secondsRemaining < 10 {
+                            triggerHaptic(type: .click)
+                        }
+                        
                     } else {
                         self.decisecondsRemaining -= 1
                     }
@@ -74,17 +102,22 @@ struct ContentView: View {
             
             Button(action: {
                 if self.isReady {
+                    // Start
                     triggerHaptic(type: .start)
                     self.isReady.toggle()
                     self.isCountingDown.toggle()
                     buttonText = "Sync"
                 } else if self.isCountingDown {
+                    // Sync
+                    // triggerHaptic(type: .click)
                     if minutesRemaining > 0 {
                         self.secondsRemaining = 0
                         self.decisecondsRemaining = 0
                     }
                     
                 } else {
+                    // Reset
+                    triggerHaptic(type: .click)
                     buttonText = "Start"
                     self.minutesRemaining = 5
                     self.isReady = true

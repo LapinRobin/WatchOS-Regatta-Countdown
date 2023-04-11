@@ -18,5 +18,5 @@ When the countdown is finished, click on the *Restart* button to redo the countd
 
 ### Haptic feedback
 
-On every tapping of a button, whole minutes, final countdowns, there will be unique signatures of haptic feedbacks so that you know the time without looking at the watch face.
+On each tapping of a button, whole minutes, final countdowns, there will be unique signatures of haptic feedbacks so that you know the time without looking at the watch face.
 
